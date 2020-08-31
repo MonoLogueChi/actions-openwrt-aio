@@ -59,9 +59,9 @@ jobs:
         git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
        # git clone 其他github插件源码地址 package/文件夹名称  
         
-    - name: Configuration Customization - Build_x86_64
+    - name: Configuration Customization - Build_x86_64_aio
       env:
-        CONFIG_FILE: 'x86_64.config'
+        CONFIG_FILE: 'x86_64_aio.config'
       run: |
         [ -e $CONFIG_FILE ] && mv $CONFIG_FILE openwrt/.config
         chmod +x ./customize.sh && ./customize.sh
