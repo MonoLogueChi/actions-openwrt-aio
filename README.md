@@ -18,27 +18,18 @@
 ## 操作步骤
 
 - 如不需要个性化地址，直接在`Actions`标签中下载即可，无需自己编译。
-
 - 注册[GitHub](https://github.com/join)账号
-
 - `Fork`此仓库源码 [GitHub repository](https://github.com/superstarfly/AutoBuild-OpenWrt-Q)
-
-- 定制化固件---编辑`x86_64.config` `Build_OP_x86_64.yml`文件即可定制。
-
-- 开始编译，可在`Actions`标签页进行查看--1）点击顶部`star`即可开始编译；2）也可进入`Build_OP_x86_64.yml`文件取消`push` `branches` `maser`前面`#`开始编译； 3）其他解锁编译由你来发现
-
+- 定制化固件---编辑`x86_64_aio.config` `Build_OP_x86_64_aio.yml`文件即可定制。
+- 开始编译，可在`Actions`标签页进行查看--1）点击顶部`star`即可开始编译；2）也可进入`Build_OP_x86_64_aio.yml`文件取消`push` `branches` `maser`前面`#`开始编译； 3）其他解锁编译由你来发现
 - 大功告成，下载固件---进入`Actions`标签页后，选择已完成的`workflows`后，在右方的`Artifacts`即可看到编译生成的固件
-
 - 安装使用openwrt系统---下载解压压缩包后，Openwrt_x86_64固件位于`targets\x86\64`下，选择`openwrt-x86-64-combined-squashfs.img.gz`固件,可直接在openwrt页面进行升级，建议不保留配置，防止出现未知情况（前提已安装过openwrt系统）;全新安装openwrt系统请google
-
 - 生成最新ipk---下载解压压缩包后，编译生成的最新ipk文件位于`packages\x86_64`目录下，请自寻查找
-
 - OpenWrt默认lan IP： `192.168.1.1`, 用户名 `root`，密码 `password`
 
 ## 固件包含的常用插件
 
 - 适合 All In One 机器，插件精简，没有乱七八糟的功能。
-
 - 主要功能： `Passwall` `Adguard Home` `KoolProxyR plus+` `解锁网易云灰色歌曲` `动态DNS` `Frp内网穿透` `Kms服务器`
 
 
