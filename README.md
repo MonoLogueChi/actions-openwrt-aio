@@ -32,14 +32,13 @@
 - 适合 All In One 机器，插件精简，没有乱七八糟的功能。
 - 主要功能： `Passwall` `Adguard Home` `KoolProxyR plus+` `解锁网易云灰色歌曲` `动态DNS` `Frp内网穿透` `Kms服务器`
 
-
 ### aio 包含插件
 
 ![aio插件](img/aio.png)
 
 ### 常用版包含插件
 
-规划中
+![常用版插件](img/x86_64.png)
 
 
 ## 参考
